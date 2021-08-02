@@ -1,5 +1,7 @@
 # Labenu Music Awards
 
+![lama-logo](https://user-images.githubusercontent.com/77743802/127909278-c4851b33-ae8f-4d08-9cb1-76308383f502.png)
+
 ## Sumário
 
 - [Tecnologias](#tecnologias)
