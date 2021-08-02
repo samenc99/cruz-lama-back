@@ -1,6 +1,6 @@
 # Labenu Music Awards
 
-##Instruções
+## Instruções
 
 Abra o terminar e digite o comando: <br>
 `git clone https://github.com/samenc99/cruz-lama-back.git` <br>
@@ -22,12 +22,12 @@ No terminal digite o comando:<br>
 
 O servidor estará rodando na porta http://localhost:3003, você poderá acessar pelos seguintes endpoits:
 
-##ENDPOINTS
+## ENDPOINTS
 
-####Criar tabelas
+#### Criar tabelas
 * POST */tables*
 
-####Criar usuário
+#### Criar usuário
 *  POST */user/signup* <br>
 body -> name, email, password, role
 
@@ -35,7 +35,7 @@ body -> name, email, password, role
 * POST */user/login* <br>
   body -> email, password
 
-####Criar banda
+#### Criar banda
 * POST */band/create* <br>
   body -> name, music_genre, responsible <br>
   Authorization -> token
