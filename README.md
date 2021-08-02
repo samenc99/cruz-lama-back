@@ -47,16 +47,13 @@ As funcionalidades do projeto podem ser conferidas a seguir:
 O nosso sistema deve permitir o registro os usuários que irão usá-lo. Para se cadastrar, 
 é necessário passar um email, um nome e uma senha, e também uma função dentro do sistema. 
 Você pode ser um cliente (normal) ou um administrador do sistema (admin). 
-O usuário deve poder se logar automaticamente após o cadastro.
 
 - 2. Login
 
-Para realizar o login, basta informar seu e-mail e a sua senha. O retorno deve conter o 
-token de autenticação do usuário.
+Para realizar o login, basta informar seu e-mail e a sua senha.
 
 - 3. Endpoint de registrar banda
 
-O nosso sistema deve deixar registrado todas as bandas que participarão dos três dias de shows. 
 Para uma banda ser criada, precisamos das informações: nome, gênero musical principal a qual 
 ela se identifica e o nome de um responsável (que pode ser qualquer membro dela). 
 Não podem existir duas bandas com o mesmo nome. **Somente administradores** podem registrar bandas.
@@ -80,8 +77,7 @@ da banda e o gênero musical principal.
 
 - 7. Endpoint de criar um ingresso
 
-O caso de uso desse endpoint é o administrador do sistema querendo criar ingressos para serem 
-vendidos. Para criar, precisa indicar: nome do ingresso, valor, o id do evento e 
+Para criar, precisa indicar: nome do ingresso, valor, o id do evento e 
 a quantidade de ingressos. **Somente administradores** podem registrar ingressos.
 
 - 8. Comprar ingresso
@@ -90,12 +86,11 @@ Deve receber a quantidade de ingressos e o nome.
 
 - 9.  Adicionar foto
 
-Você deve criar um endpoint que adiciona uma foto para a galeria de um evento. 
-Elas devem ser armazenadas como links no banco de dados.
+Endpoint que adiciona uma foto para a galeria de um evento.
 
 - 10. Pegar todas as fotos
 
-O endpoint receberá o identificador do evento e devolverá todas as fotos deste.
+O endpoint receberá o identificador do usuário e devolverá todas as fotos do evento.
 
 ## ENDPOINTS
 
