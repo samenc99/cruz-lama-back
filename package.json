@@ -5,7 +5,8 @@
   "main": "jest.config.js",
   "scripts": {
     "test": "clear && echo \"Running tests...\" && jest",
-    "start": "tsc && node --inspect ./build/index.js",
+    "build": "tsc",
+    "start": "node --inspect ./build/src/index.js",
     "dev": "ts-node-dev ./src/index.ts"
   },
   "dependencies": {

@@ -17,5 +17,5 @@ app.use('/show', showRouter)
 app.post('/tables', createTables)
 
 app.listen(3003, () => {
-    console.log("Server is running")
+    console.log("Server is running port 3003")
 })
