@@ -1,1 +1,0 @@
-{"version":3,"file":"CustomError.js","sourceRoot":"","sources":["../../../../src/business/erros/CustomError.ts"],"names":[],"mappings":";;AAAA,MAAqB,WAAY,SAAQ,KAAK;IAE5C,YAAoB,UAAmB,EAAE,OAAgB;QACvD,KAAK,CAAC,OAAO,CAAC,CAAA;QADI,eAAU,GAAV,UAAU,CAAS;QAIhC,kBAAa,GAAG,GAAE,EAAE;YACzB,OAAO,IAAI,CAAC,UAAU,CAAA;QACxB,CAAC,CAAA;IAJD,CAAC;CAMF;AAVD,8BAUC"}

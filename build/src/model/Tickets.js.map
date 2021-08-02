@@ -1,1 +1,0 @@
-{"version":3,"file":"Tickets.js","sourceRoot":"","sources":["../../../src/model/Tickets.ts"],"names":[],"mappings":";;;AAeO,MAAM,aAAa,GAAG,CAAC,KAAiB,EAAE,EAAW,EAAY,EAAE;IACxE,OAAO;QACL,IAAI,EAAE,KAAK,CAAC,IAAI;QAChB,KAAK,EAAG,KAAK,CAAC,KAAK;QACnB,OAAO,EAAE,KAAK,CAAC,MAAM;QACrB,gBAAgB,EAAE,KAAK,CAAC,eAAe;QACvC,EAAE;KACH,CAAA;AACH,CAAC,CAAA;AARY,QAAA,aAAa,iBAQzB"}
